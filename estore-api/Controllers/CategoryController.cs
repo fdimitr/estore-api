@@ -11,6 +11,7 @@ using System.Web.OData.Routing;
 
 namespace estore_api.Controllers
 {
+    [Authorize]
     [ODataRoutePrefix("category")]
     public class CategoryController : ODataController
     {
